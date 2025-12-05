@@ -30,9 +30,20 @@ To write a Python program that:
 5. **Print Index and Value**:
    - For each element in the stack, print the index and the value at that index.
 
-## 📝 Program
-Add Code here
+##  Program
+```
+stack = [] 
+stack.append('a') 
+stack.append('b') 
+stack.append('c') 
+print ('Initial stack: ' + str(stack))
+for i in range(len(stack)): 
+    print(i,stack[i])
+```
 
-## Sample Input & Output
+## Output
+![image](https://github.com/user-attachments/assets/18bd9505-dc7f-4e3b-93de-47bcb509d6fc)
 
 ## Result
+Thus, the given program is implemented and executed successfully. 
+ Algorithm
